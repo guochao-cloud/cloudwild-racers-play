@@ -1,0 +1,198 @@
+{
+  "schema": "cloudwild-character/1",
+  "id": "river-otter",
+  "name": "沐沐",
+  "bodyVersion": "otter-v1",
+  "skeletonVersion": "mixamo-cloudwild-v1",
+  "units": "meters",
+  "up": "Y",
+  "forward": "+Z",
+  "bodyHeight": 1,
+  "semantics": {
+    "pelvis": "mixamorig:Hips",
+    "spine": "mixamorig:Spine",
+    "chest": "mixamorig:Spine2",
+    "neck": "mixamorig:Neck",
+    "head": "mixamorig:Head",
+    "hand_left": "mixamorig:LeftHand",
+    "hand_right": "mixamorig:RightHand",
+    "root": "cloudwild_rig_v1",
+    "spine_mid": "mixamorig:Spine1",
+    "shoulder_left": "mixamorig:LeftShoulder",
+    "upper_arm_left": "mixamorig:LeftArm",
+    "forearm_left": "mixamorig:LeftForeArm",
+    "thigh_left": "mixamorig:LeftUpLeg",
+    "shin_left": "mixamorig:LeftLeg",
+    "foot_left": "mixamorig:LeftFoot",
+    "shoulder_right": "mixamorig:RightShoulder",
+    "upper_arm_right": "mixamorig:RightArm",
+    "forearm_right": "mixamorig:RightForeArm",
+    "thigh_right": "mixamorig:RightUpLeg",
+    "shin_right": "mixamorig:RightLeg",
+    "foot_right": "mixamorig:RightFoot",
+    "tail_0": "tail_0",
+    "tail_1": "tail_1",
+    "tail_2": "tail_2"
+  },
+  "flightFrame": 2,
+  "bindFrame": 1,
+  "sockets": {
+    "socket_head": {
+      "part": "body",
+      "bone": "mixamorig:Head",
+      "position": [
+        -0.01,
+        0.98,
+        0.14
+      ],
+      "node": "socket_head",
+      "space": "canonical-bind"
+    },
+    "socket_chest": {
+      "part": "body",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        0,
+        0.5,
+        0.29
+      ],
+      "node": "socket_chest",
+      "space": "canonical-bind"
+    },
+    "socket_back": {
+      "part": "body",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        0,
+        0.56,
+        -0.1
+      ],
+      "node": "socket_back",
+      "space": "canonical-bind"
+    },
+    "socket_wing": {
+      "part": "body",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        0,
+        1.16,
+        0.17
+      ],
+      "node": "socket_wing",
+      "space": "canonical-bind"
+    },
+    "grip_left": {
+      "part": "body",
+      "bone": "mixamorig:LeftHand",
+      "position": [
+        0.38022369146347046,
+        0.5924433469772339,
+        0.21341152489185333
+      ],
+      "node": "grip_left",
+      "space": "canonical-bind"
+    },
+    "grip_left_target": {
+      "part": "wing",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        0.34058403968811035,
+        0.693168044090271,
+        0.2134116142988205
+      ],
+      "node": "grip_left_target",
+      "space": "canonical-bind"
+    },
+    "grip_right": {
+      "part": "body",
+      "bone": "mixamorig:RightHand",
+      "position": [
+        -0.3785066604614258,
+        0.6037408113479614,
+        0.15412777662277222
+      ],
+      "node": "grip_right",
+      "space": "canonical-bind"
+    },
+    "grip_right_target": {
+      "part": "wing",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        -0.33556628227233887,
+        0.6916666030883789,
+        0.15412786602973938
+      ],
+      "node": "grip_right_target",
+      "space": "canonical-bind"
+    },
+    "fx_left": {
+      "part": "wing",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        -0.9100000262260437,
+        0.9975000023841858,
+        -0.20000000298023224
+      ],
+      "node": "fx_left",
+      "space": "canonical-bind"
+    },
+    "fx_right": {
+      "part": "wing",
+      "bone": "mixamorig:Spine2",
+      "position": [
+        0.9100000262260437,
+        0.9975000023841858,
+        -0.20000000298023224
+      ],
+      "node": "fx_right",
+      "space": "canonical-bind"
+    }
+  },
+  "parts": {
+    "body": {
+      "file": "body.glb",
+      "slot": "body",
+      "fitFor": "otter-v1",
+      "binding": "shared-skin",
+      "sharedSkeleton": true,
+      "defaultEquipped": true,
+      "triangles": 18481
+    },
+    "outfit": {
+      "file": "outfit.glb",
+      "slot": "outfit",
+      "fitFor": "otter-v1",
+      "binding": "shared-skin",
+      "sharedSkeleton": true,
+      "defaultEquipped": true,
+      "triangles": 11080
+    },
+    "goggles": {
+      "file": "goggles.glb",
+      "slot": "goggles",
+      "fitFor": "otter-v1",
+      "binding": "rigid-bone-skin",
+      "sharedSkeleton": true,
+      "defaultEquipped": true,
+      "triangles": 6480
+    },
+    "backpack": {
+      "file": "backpack.glb",
+      "slot": "backpack",
+      "fitFor": "otter-v1",
+      "binding": "rigid-bone-skin",
+      "sharedSkeleton": true,
+      "defaultEquipped": true,
+      "triangles": 2420
+    },
+    "wing": {
+      "file": "wing.glb",
+      "slot": "wing",
+      "fitFor": "otter-v1",
+      "binding": "rigid-bone-skin",
+      "sharedSkeleton": true,
+      "defaultEquipped": true,
+      "triangles": 9552
+    }
+  }
+}

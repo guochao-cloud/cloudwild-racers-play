@@ -1,0 +1,55 @@
+{
+  "schema": "cloudwild-character/1",
+  "id": "moon-fox",
+  "name": "星澜",
+  "bodyVersion": "xinglan-v1",
+  "skeletonVersion": "mixamo-cloudwild-v1",
+  "units": "meters",
+  "up": "Y",
+  "forward": "+Z",
+  "bodyHeight": 1,
+  "flightFrame": 2,
+  "bindFrame": 1,
+  "defaultWing": "wing",
+  "sockets": {
+    "cape": {
+      "position": [
+        -0.01600000075995922,
+        0.5600000023841858,
+        0.06400000303983688
+      ]
+    }
+  },
+  "parts": {
+    "body": {
+      "file": "body.glb",
+      "fitFor": "xinglan-v1",
+      "binding": "shared-skin",
+      "defaultEquipped": true
+    },
+    "wing": {
+      "file": "wing.glb",
+      "fitFor": "xinglan-v1",
+      "binding": "shared-skin",
+      "defaultEquipped": true
+    },
+    "moonflight-goggles": {
+      "file": "../moonflight-goggles.glb",
+      "fitFor": "xinglan-v1",
+      "binding": "canonical-socket",
+      "defaultEquipped": false
+    },
+    "moonflight-wing": {
+      "file": "../moonflight-wing.glb",
+      "fitFor": "xinglan-v1",
+      "binding": "canonical-socket",
+      "defaultEquipped": false
+    },
+    "moonflight-cape": {
+      "file": "../moonflight-cape.glb",
+      "fitFor": "xinglan-v1",
+      "binding": "canonical-socket",
+      "defaultEquipped": false
+    }
+  }
+}
